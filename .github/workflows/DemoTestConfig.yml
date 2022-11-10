@@ -25,7 +25,7 @@ jobs:
       - name: Eggplant Runner
         uses: keysight-eggplant/eggplant-github-action@v1.0.4
         with:
-           serverURL: "https://eggplant-partners.dai.eggplant.cloud/"
+           serverURL: "https://eggplant-partners.dai.eggplant.cloud"
            testConfigID: "28804fc0-9818-4b32-96c8-e3f041afba42"
            clientID: "client:dai:agent:integration"
            clientSecret: "b7665344-702a-4155-b2c8-6a451adc57fb"
